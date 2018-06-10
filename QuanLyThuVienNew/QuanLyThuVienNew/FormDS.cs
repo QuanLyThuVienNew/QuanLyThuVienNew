@@ -22,7 +22,7 @@ namespace QuanLyThuVien
         {
             this.Close();
         }
-        string strConn = @"Data Source=CUONG;Initial Catalog=QuanLyThuVien;Integrated Security=True";
+        string strConn = @"Data Source=VUONGLONG\SQLEXPRESS;Initial Catalog=QuanLyThuVien;Integrated Security=True";
         SqlConnection conn;
         public void LoadData()
         {
